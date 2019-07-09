@@ -1,0 +1,232 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Lato-bold');
+* {
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+    line-height: 1; }
+
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  
+body{
+    margin: 0; padding: 0;
+}
+
+.header{
+    background: #22252e;
+    text-align: center;
+    height: 11vh;
+}
+.header_items{
+    padding: 2%;
+}
+.menu_item_text:hover{
+    color: rgb(78, 204, 163);
+}
+.menu_item_text{
+    text-decoration: none;
+    color: white;
+    padding: 0% 3%;
+    font-family: 'Lato-bold', sans-serif;
+    font-size: 125%;
+}
+.menu_item_banner{
+    text-decoration: none;
+    color: white;
+    padding: 0% 3%;
+    font-family: 'Lato-bold', sans-serif;
+    font-size: 130%;
+}
+.login{
+    width: 15%;
+    padding: 1% 2%;
+    margin: 3% auto 6% auto;
+    border: 2px solid black;
+    font-size: 110%;
+    /*border-radius: 20px;*/
+}
+.login_text{
+    margin-bottom: 4%;
+}
+.login_fields{
+    background: white;
+    border: 1px solid black;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    width: 95%;
+    padding: 1%;
+}
+.login_but{
+    margin: 10% auto;
+    width: 15vh;
+    height: 5vh;
+    text-align: center;
+    background: rgb(78, 204, 163);
+    border: none;
+    color: black;
+    text-decoration: none;
+    display: block;
+    font-family: 'Lato-bold', sans-serif;
+    cursor:pointer;
+}
+.login_forgot{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto;
+    display:block;
+}
+.login_forgot:hover{
+    color: #37886d;
+    text-decoration: underline;
+}
+.register{
+    width: 25%;
+    padding: 1% 2%;
+    margin: 3% auto 6% auto;
+    border: 2px solid black;
+    font-size: 110%;
+    /*border-radius: 20px;*/
+}
+.register_text{
+    margin-bottom: 2%;
+}
+.register_fields{
+    background: white;
+    border: 1px solid black;
+    margin-right: 5%;
+    margin-bottom: 3%;
+    width: 95%;
+    padding: 1%;
+}
+.register_but{
+    margin: 5% auto;
+    width: 15vh;
+    height: 5vh;
+    text-align: center;
+    background: rgb(78, 204, 163);
+    border: none;
+    color: black;
+    text-decoration: none;
+    display: block;
+    font-family: 'Lato-bold', sans-serif;
+    cursor:pointer;
+}
+hr {
+    color: #b4b4b4;
+}
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+.description{
+    width: 40%;
+    padding: 1% 2%;
+    margin: 3% auto 6% auto;
+    /*border: 2px solid black;*/
+    font-size: 110%;
+}
+h2 {
+    margin: 0 auto 7% auto;
+    text-align: center;
+}
+.products{
+    width: 60%;
+    padding: 1% 2%;
+    margin: 3% auto 6% auto;
+    /*border: 2px solid black;*/
+    font-size: 110%;
+}
+.product{
+    width: 40%;
+    height: 35vh;
+    padding: 2%;
+    border: 2px solid black;
+    margin: 0% 2.5%;
+    float: left;
+    clear: right;
+}
+.product_icon{
+    display: block;
+    margin:auto;
+    padding: 5% 0% 0% 0%;
+    width: 40%;
+    height: 40%;
+}
+.quien_icon{
+    display: block;
+    margin:auto;
+    padding: 5% 0% 0% 0%;
+    height: 40%;
+}
+.contact_msg{
+    background: white;
+    border: 1px solid black;
+    margin-right: 5%;
+    margin-bottom: 3%;
+    width: 95%;
+    height: 18vh;
+    padding: 1%;
+    font-size: 85%;
+}
+.icon {
+    margin: 15% auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #9de3cc;
+}
+.bg-after {
+        /*position: absolute;*/
+        font-size: 75px;
+        content: "";
+        left: 0px;
+        margin: 20px 20px;
+}
+
+.error {
+  width: 92%; 
+  margin: 0px auto;
+  margin-top: 2%; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.success {
+    width: 92%; 
+    margin: 0px auto;
+    margin-top: 2%; 
+    padding: 10px; 
+    border: 1px solid #20643a; 
+    color: #20643a; 
+    background: #9bd3b1; 
+    border-radius: 5px; 
+    text-align: left;
+  }
+  .short{
+    font-weight:bold;
+    color:#FF0000;
+    }
+    .weak{
+    font-weight:bold;
+    color:orange;
+    }
+    .good{
+    font-weight:bold;
+    color:#2D98F3;
+    }
+    .strong{
+    font-weight: bold;
+    color: limegreen;
+    }
