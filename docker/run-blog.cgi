@@ -3,7 +3,7 @@ import docker
 import sys
 import cgi
 
-# Este script se ejecuta cuando el usuario activa el servicio Mi Web
+# Este script se ejecuta cuando el usuario activa el servicio Mi Blog
 
 print ("Content-Type: text/html")
 print 
