@@ -26,7 +26,7 @@ NULL, `ip` varchar(32) NOT NULL, PRIMARY KEY (`ip`));
 ## Web
 > Se utiliza HTTPS en todas las páginas.
 - Registro en la plataforma (web y sistema) con mail de confirmación (y posibilidad de reenvio para evitar errores).
-- Login con posibilidad de recuperar credenciales en caso de olvido.
+- Login con posibilidad de recuperar credenciales en caso de olvido. Se evitan ataques de fuerza bruta baneando la ip del atacante unos minutos tras 5 intentos.
 - Contacto: Enviar feedback que leerán los adminsitradores (por mail y en su panel).
 ### Panel de Usuario y Técnico
 Los usuarios podrán acceder a las siguientes funcionalidades:
