@@ -2,6 +2,27 @@
 - Gestión de usuarios: **LDAP**.
 - Servidor de nombres: **dnsmasq** para los distintos servicios de la web (ej: mail.usal.es).
 - Base de datos: **MySQL**.
+```sql
+CREATE TABLE `Contacto` (`id` int(11) NOT NULL auto_increment, `name`
+varchar(64) NOT NULL, `email` varchar(64) NOT NULL, `topic`
+varchar(64) NOT NULL, `msg` varchar(2048) NOT NULL, `time` varchar(32)
+NOT NULL, PRIMARY KEY (`id`));
+CREATE TABLE `Cuenta` (`username` varchar(128) NOT NULL, `email`
+varchar(128) NOT NULL, `confirmado` int(11) NOT NULL, `web` int(11)
+NOT NULL, `blog` int(11) NOT NULL, PRIMARY KEY (`username`), UNIQUE
+INDEX (`email`));
+CREATE TABLE `Mail_Conf` (`username` varchar(128) NOT NULL, `token`
+varchar(40) NOT NULL, PRIMARY KEY (`username`), PRIMARY KEY
+(`token`));
+3CREATE TABLE `Reset_pass` (`user_mail` varchar(128) NOT NULL, `token`
+varchar(40) NOT NULL, `time` varchar(64) NOT NULL, PRIMARY KEY
+(`user_mail`), PRIMARY KEY (`token`));
+CREATE TABLE `Session_token` (`username` varchar(128) NOT NULL,
+`token` varchar(40) NOT NULL, `time` varchar(64) NOT NULL);
+CREATE TABLE `intento` (`intentos` int(2) NOT NULL, `fecha` int(24) NOT
+NULL, `ip` varchar(32) NOT NULL, PRIMARY KEY (`ip`));
+```
+![alt text](https://github.com/manulqwerty/Administracion-de-sistemas-USAL/blob/master/web/images/bd.jpg)
 ## Web
 > Se utiliza HTTPS en todas las páginas.
 - Registro en la plataforma (web y sistema) con mail de confirmación (y posibilidad de reenvio para evitar errores).
