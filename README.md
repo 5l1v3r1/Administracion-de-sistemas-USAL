@@ -24,7 +24,7 @@ Los administradores podrán acceder a las siguientes funcionalidades:
 - Acceder al Monitorix (herramienta de monitoreo)
 
 ## Sistema
-- Cuotas de disco, se gestiona la asignación de espacio a los usuarios con un script de perl: [newuser.pl](https://www.google.com)
-- Copias de seguridad de la base de datos (), de los ficheros de los usuarios (/home) y del LDAP.
+- Cuotas de disco, se gestiona la asignación de espacio a los usuarios con un script de perl: [newuser.pl](https://github.com/manulqwerty/Administracion-de-sistemas-USAL/blob/master/scripts/newuser.pl)
+- Copias de seguridad de la base de datos [mysql-backup.pl](https://github.com/manulqwerty/Administracion-de-sistemas-USAL/blob/master/scripts/mysql-backup.pl), de los ficheros de los usuarios [home-backup.pl](https://github.com/manulqwerty/Administracion-de-sistemas-USAL/blob/master/scripts/home-backup.pl) y del LDAP.
 - Hosting de la web de los usuarios, para la correcta securización del sistema se encapsulan las webs de los usuarios con docker.
 
