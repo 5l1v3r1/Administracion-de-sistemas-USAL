@@ -9,3 +9,4 @@
 ![alt text](https://github.com/manulqwerty/Administracion-de-sistemas-USAL/blob/master/web/images/3.png "User Panel")
 ![alt text](https://github.com/manulqwerty/Administracion-de-sistemas-USAL/blob/master/web/images/4.png "Admin Panel")
 ![alt text](https://github.com/manulqwerty/Administracion-de-sistemas-USAL/blob/master/web/images/5.png "User Panel")
+![alt text](https://ironhackers.es/wp-content/uploads/2020/01/Posibles-Preguntas.pdf "Preguntas")
